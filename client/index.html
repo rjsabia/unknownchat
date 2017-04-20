@@ -2,6 +2,7 @@
 	<head>
 		<title>UnknownChat</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 		<link rel="stylesheet" href="styles/main.css">
 		<link rel="stylesheet" href="styles/reset.css">
 	</head>
@@ -10,12 +11,20 @@
 
 		<header>
 		<div id = "hero">
-			<h1>Unkown Chat</h1>
-			<nav></nav>
+			<div id = "logo">
+				<h1>Unkown Chat</h1>
+			</div>
+			<nav>
+				<div id = "navburger">
+					<div class = "hamburger-nav-bar"></div>
+					<div class = "hamburger-nav-bar"></div>
+					<div class = "hamburger-nav-bar"></div>
+				</div>
+			</nav>
 		</div>	
 
 		</header>
-
+		
 		<section id = "main-content">
 			<!-- div containing what block and hidden content -->
 			<div id="what-block" class="overlay">
@@ -27,8 +36,8 @@
 				    </div>
 			    </div>
 			</div>
-			<div id = "what">
-				<a href="#">WHAT</a>
+			<div id = "what" class = "box">
+				<a href="#">what is it?</a>
 			</div>
 			<!-- div containing why block and hidden content -->
 			<div id="why-block" class="overlay">
@@ -40,8 +49,8 @@
 				    </div>
 				</div>
 			</div>
-			<div id = "why">
-				<a href="#">WHY</a>
+			<div id = "why" class = "box">
+				<a href="#">why use it?</a>
 			</div>
 			<!-- div containing how block and hidden content -->
 			<div id="how-block" class="overlay">
@@ -53,12 +62,11 @@
 				    </div>
 			    </div>
 			</div>
-			<div id = "how">
-				<a href="#">HOW</a>
+			<div id = "how" class = "box">
+				<a href="#">how to get it?</a>
 			</div>
-
+			
 		</section>
-		
 		    	
 		<script src="/socket.io/socket.io.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
