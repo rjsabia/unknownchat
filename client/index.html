@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>UnknownChat</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/reset.css">
+	</head>
+
+	<body>
+
+		<header>
+		<div id = "hero">
+			<h1>Unkown Chat</h1>
+			<nav></nav>
+		</div>	
+
+		</header>
+
+		<section id = "main-content">
+			<!-- div containing what block and hidden content -->
+			<div id="what-block" class="overlay">
+				<!-- Overlay What block content -->
+				<div class="overlay-content">
+				    <div id = "what-content"><p>test "what" content</p></div>
+				    <div id = "close-what">
+				    	<a href="#">Cool, got it</a>
+				    </div>
+			    </div>
+			</div>
+			<div id = "what">
+				<a href="#">WHAT</a>
+			</div>
+			<!-- div containing why block and hidden content -->
+			<div id="why-block" class="overlay">
+				<!-- Overlay Why block content -->
+				<div class="overlay-content">
+				    <div id = "why-content"><p>test "why" content</p></div>
+				    <div id = "close-why">
+				    	<a href="#">Cool, got it</a>
+				    </div>
+				</div>
+			</div>
+			<div id = "why">
+				<a href="#">WHY</a>
+			</div>
+			<!-- div containing how block and hidden content -->
+			<div id="how-block" class="overlay">
+				<!-- Overlay how block content -->
+				<div class="overlay-content">
+				    <div id = "how-content"><p>test "how" content</p></div>
+				    <div id = "close-how">
+				    	<a href="#">Cool, got it</a>
+				    </div>
+			    </div>
+			</div>
+			<div id = "how">
+				<a href="#">HOW</a>
+			</div>
+
+		</section>
+		
+		    	
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+
+	</body>
+
+</html>
