@@ -14,16 +14,13 @@
 			<div id = "logo">
 				<h1>Unkown Chat</h1>
 			</div>
-			<nav>
-				<!-- <a class ="navicon-button x">
-					<div class = "navicon"></div>
-				</a> -->
+			<!-- <nav>
 				<div id = "navburger">
 					<div class = "hamburger-nav-bar"></div>
 					<div class = "hamburger-nav-bar"></div>
 					<div class = "hamburger-nav-bar"></div>
 				</div>
-			</nav>
+			</nav> -->
 		</div>	
 
 		</header>
@@ -68,7 +65,33 @@
 			<div id = "how" class = "box">
 				<a href="#">how to get it?</a>
 			</div>
-			<!-- div containing 2nd login option, not hidden, no overlay, just link -->
+			<!-- div containing 2nd login option, hidden, overlay, input form -->
+			<div id="login-block" class="overlay">
+				<!-- Overlay how block content -->
+				<div class="overlay-content">
+				    <form action="#">
+						 <div class="imgcontainer">
+					  	   <img src="img_avatar2.png" alt="Avatar" class="avatar">
+						 </div>
+
+						 <div class="container">
+						 	<label class = "label-text">username</label>
+						    <input type="text" placeholder="Enter Username" name="uname" required>
+							 <label class = "label-text">password</label>
+						    <input type="password" placeholder="Enter Password" name="psw" required>
+						    <div id = "login-wrapper">
+								<button id = "login-button" type="submit">Login</button>
+							</div>
+						 </div>
+
+						 <div class="cancel">
+						    <button type="button" class="cancelbtn">Cancel</button>
+						    <span class="psw">Forgot <a href="#">password?</a></span>
+						 </div>
+					</form>
+			    </div>
+			</div>
+
 			<div id = "login" class = "box">
 				<a href="#">user login</a>
 			</div>

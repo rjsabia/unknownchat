@@ -1,29 +1,54 @@
 $(document).ready(function(){
 
 	$('#what').click(function(){
-		$('#what').hide();
-		$('#what-block').show();
+		hideBlocks();
+		$('#what-block').fadeIn(600);
 	});
 	$('#close-what').click(function(){
-		$('#what-block').hide();
-		$('#what').show();
+		showBlocks();
+		$('#what-block').fadeOut(600);
 	});
 
 	$('#why').click(function(){
-		$('#why').hide();
-		$('#why-block').show();
+		hideBlocks();
+		$('#why-block').fadeIn(600);
 	});
 	$('#close-why').click(function(){
-		$('#why-block').hide();
-		$('#why').show();
+		showBlocks();
+		$('#why-block').fadeOut(600);
 	});
 
 	$('#how').click(function(){
-		$('#how').hide();
-		$('#how-block').show();
+		hideBlocks();
+		$('#how-block').fadeIn(600);
 	});
 	$('#close-how').click(function(){
-		$('#how-block').hide();
-		$('#how').show();
+		showBlocks();
+		$('#how-block').fadeOut(600);
+	});
+
+	$('#login').click(function(){
+		hideBlocks();
+		$('#login-block').fadeIn(600);
+	});
+	$('.cancelbtn').click(function(){
+		showBlocks();
+		$('#login-block').fadeOut(600);
 	});
 })
+
+
+// functions ------------
+function showBlocks(){
+	$('#what').show();
+	$('#why').show();
+	$('#how').show();
+	$('#login').show();
+}
+
+function hideBlocks(){
+	$('#what').hide();
+	$('#why').hide();
+	$('#how').hide();
+	$('#login').hide();
+}
