@@ -44,6 +44,7 @@ function showBlocks(){
 	$('#why').show();
 	$('#how').show();
 	$('#login').show();
+	$('#mid-content').show();
 }
 
 function hideBlocks(){
@@ -51,4 +52,5 @@ function hideBlocks(){
 	$('#why').hide();
 	$('#how').hide();
 	$('#login').hide();
+	$('#mid-content').hide();
 }
