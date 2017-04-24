@@ -6,10 +6,10 @@ html, body {
     overflow-x: hidden;
 }
 header{
-	height: 250px;
+	height: 200px;
 	width: 100%;
-	background-color: black;
-	color: #00ffb0;
+	background-color: #DD1C1A;
+	color: black;
 	text-align: left;
 
 	clip-path: polygon(
@@ -27,6 +27,18 @@ header{
 	    0 50% /* left bottom */
   	);
 }
+body { 
+  background-image: url('../images/background_wall_chat_app.jpg');
+  background-attachment: fixed;
+    background-position: center;
+   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1000;
+
+}
 /*#navburger{
 	transition: transform .4s ease;
 	display: inline;
@@ -43,8 +55,8 @@ header{
 #hero h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
-	font-size: 60px;
-	padding: 40px 40px 0px 40px;
+	font-size: 38px;
+	padding: 35px 40px 0px 40px;
 }
 .box{
 	text-align: center;
@@ -54,10 +66,10 @@ header{
 #what{
 	transition: width .6s ease;
 	transition: left .6s ease;
-	background-color: #ffff00;
+	background-color: #086788;
 	padding-top: 100px;
-	height: 350px;
-	width: 30%;
+	height: 325px;
+	width: 28%;
 	position: relative;
 	left: 28%;
 	top: -100px;
@@ -65,11 +77,12 @@ header{
 #what a{
 	transition: font-size .4s ease;
 	text-decoration: none;
-	color: #c0c0c0;
+	color: #FFF1D0;
 	font-size: 50px;
+	font-weight: 500;
 }
 #what a:hover{
-	font-size: 70px;
+	font-size: 80px;
 }
 #what:hover{
 	width: 70%;
@@ -78,10 +91,10 @@ header{
 #why{
 	transition: width .6s ease;
 	transition: left .6s ease;
-	background-color: #00ffb0;
+	background-color: #DD1C1A;
 	padding: 100px;
-	height: 450px;
-	width: 35%;
+	height: 370px;
+	width: 32%;
 	position: relative;
 	left: 52%;
 	top: -200px;
@@ -90,7 +103,8 @@ header{
 	transition: font-size .4s ease;
 	text-decoration: none;
 	color: black;
-	font-size: 50px;
+	font-size: 45px;
+	font-weight: 500;
 }
 #why a:hover{
 	font-size: 70px;
@@ -103,19 +117,20 @@ header{
 	transition: width .6s ease;
 	transition: left .6s ease;
 	transition: top .6s ease;
-	background-color: #c0c0c0;
+	background-color: #FFF1D0;
 	padding: 50px;
-	height: 320px;
+	height: 300px;
 	width: 27%;
 	position: relative;
 	left: 35%;
-	top: -425px;
+	top: -390px;
 }
 #how a{
 	transition: font-size .4s ease;
 	text-decoration: none;
-	color: #ffff00;
-	font-size: 38px;
+	color: black;
+	font-size: 40px;
+	font-weight: 500;
 }
 #how a:hover{
 	font-size: 55px;
@@ -130,25 +145,26 @@ header{
 	transition: left .6s ease;
 	transition: top .6s ease;
 	transition: height .6s ease;
-	background-color: black;
+	background-color: #F0C808;
 	padding: 50px;
 	height: 145px;
 	width: 21%;
 	position: relative;
 	left: 11%;
-	top: -900px;
+	top: -800px;
 }
 #login a{
 	transition: font-size .4s ease;
-	color: #00ffb0;
-	font-size: 30px;
+	color: black;
+	font-size: 35px;
 	text-decoration: none;
+	font-weight: 500;
 }
 #login:hover{
 	width: 70%;
 	height: 225px;
 	left: 5%;
-	top: -1000px;
+	top: -900px;
 }
 #login a:hover{
 	font-size: 55px;
@@ -182,6 +198,55 @@ header{
 	background-color: black;
 	border: solid 4px #00ffb0;
 	color: #00ffb0;
+}
+#mid-content{
+	height: 500px;
+	width: 90%;
+	border-radius: 8px;
+	margin: 0px auto 0px auto;
+	background-color: #086788;
+	color: #FFF1D0;
+	position: relative;
+	top: -335px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 70px 0px 0px 50px;
+	font-size: 35px;
+
+	clip-path: polygon(
+	   
+	    0 0, /* left top */
+	    100% 0, /* right top */ 
+	    50% 50%, /* right bottom */
+	    0 100% /* left bottom */
+  	);
+	-webkit-clip-path: polygon(
+	   
+	    0 0, /* left top */
+	    100% 0, /* right top */ 
+	    50% 50%, /* right bottom */
+	    0 100% /* left bottom */
+  	);
+}
+#footer{
+	width: 100%;
+	height: 200px;
+	background-color: #DD1C1A;
+	color: black;
+
+	clip-path: polygon(
+	   
+	    0 50%, /* left top */
+	    100% 0, /* right top */ 
+	    100% 100%, /* right bottom */
+	    0 100% /* left bottom */
+  	);
+	-webkit-clip-path: polygon(
+	   
+	    0 50%, /* left top */
+	    100% 0, /* right top */ 
+	    100% 100%, /* right bottom */
+	    0 100% /* left bottom */
+  	);
 }
 /*test form for login*/
 /*******************************/
