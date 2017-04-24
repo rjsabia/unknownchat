@@ -200,17 +200,18 @@ body {
 	color: #00ffb0;
 }
 #mid-content{
-	height: 500px;
+	height: 400px;
 	width: 90%;
+	border-top: 10px solid #DD1C1A;
 	border-radius: 8px;
 	margin: 0px auto 0px auto;
 	background-color: #086788;
 	color: #FFF1D0;
 	position: relative;
-	top: -335px;
+	top: -375px;
 	font-family: 'Montserrat', sans-serif;
-	padding: 70px 0px 0px 50px;
-	font-size: 35px;
+	padding: 20px 0px 0px 40px;
+	font-size: 33px;
 
 	clip-path: polygon(
 	   
@@ -226,6 +227,9 @@ body {
 	    50% 50%, /* right bottom */
 	    0 100% /* left bottom */
   	);
+}
+.mid-p{
+	margin-top: 18px;
 }
 #footer{
 	width: 100%;
