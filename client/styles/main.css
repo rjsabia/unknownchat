@@ -92,7 +92,7 @@ body {
 	transition: width .6s ease;
 	transition: left .6s ease;
 	background-color: #DD1C1A;
-	padding: 100px;
+	padding-top: 100px;
 	height: 370px;
 	width: 32%;
 	position: relative;
@@ -118,7 +118,7 @@ body {
 	transition: left .6s ease;
 	transition: top .6s ease;
 	background-color: #FFF1D0;
-	padding: 50px;
+	padding-top: 50px;
 	height: 300px;
 	width: 27%;
 	position: relative;
@@ -146,7 +146,7 @@ body {
 	transition: top .6s ease;
 	transition: height .6s ease;
 	background-color: #d8b407;
-	padding: 50px;
+	padding-top: 50px;
 	height: 145px;
 	width: 21%;
 	position: relative;
@@ -252,6 +252,92 @@ body {
 	    0 100% /* left bottom */
   	);
 }
+/*responsive media queries*/
+@media (max-width: 1405px){
+	#why a{
+		font-size: 38px;
+	}
+	#how a{
+		font-size: 33px;
+	}
+	#login a{
+		font-size: 28px;
+	}
+	#mid-content{
+		font-size: 28px;
+	}
+}
+@media (max-width: 1285px){
+	#what a{
+		font-size: 42px
+	}
+	#why a{
+		font-size: 32px;
+	}
+	#how a{
+		font-size: 27px;
+	}
+	#login a{
+		font-size: 26px;
+	}
+	#mid-content{
+		font-size: 24px;
+	}
+}
+@media (max-width: 1185px){
+	#what{
+		height: 280px;
+		width: 27%;
+	}
+	#what a{
+		font-size: 45px
+	}
+	#why{
+		height: 305px;
+		width: 31%;
+		position: relative;
+		left: 48%;
+		top: -160px;
+	}
+	#why a{
+		font-size: 30px;
+	}
+	#how{
+		height: 205px;
+		width: 25%;
+		position: relative;
+		left: 30%;
+		top: -260px;
+	}
+	#how a{
+		font-size: 28px;
+	}
+	#how a:hover{
+		font-size: 50px;
+	}
+	#how:hover{
+		width: 70%;
+		left: 12%;
+		top: -450px;
+		z-index: 2000;
+	}
+	#login{
+		height: 125px;
+		width: 19%;
+		position: relative;
+		left: 15%;
+		top: -660px;
+	}
+	#login a{
+		font-size: 28px;
+	}
+	#mid-content{
+		font-size: 24px;
+		position: relative;
+		top: -300px;
+	}
+}
+/**************************/
 /*test form for login*/
 /*******************************/
 /* Bordered form */
