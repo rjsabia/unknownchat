@@ -507,6 +507,144 @@ body {
 	}
 }
 @media (max-width: 574px){
+	header{
+		height: 95px;
+	}
+	#hero h1{
+		font-size: 22px;
+		padding: 15px 40px 0px 15px;
+	}
+	#mid-content{
+		font-size: 12px;
+		height: 225px;
+		padding: 5px 0px 0px 5px;
+		position: relative;
+		top: -150;
+		margin-bottom: 100px;
+	}
+	#what{
+		height: 140px;
+		padding-top: 50px;
+		position: relative;
+		top: -45px;
+	}
+	#what a{
+		font-size: 22px
+	}
+	#what a:hover{
+		font-size: 40px;
+	}
+	#why{
+		height: 160;
+		padding-top: 50px;
+		position: relative;
+		top: -70px;
+	}
+	#why a{
+		font-size: 23px;
+	}
+	#why a:hover{
+		font-size: 40px;
+	}
+	#how{
+		height: 95px;
+		padding-top: 28px;
+		position: relative;
+		top: -120px;
+	}
+	#how a{
+		font-size: 17px;
+	}
+	#how:hover{
+		top: -200px;
+		z-index: 2000;
+	}
+	#how a:hover{
+		font-size: 35px;
+	}
+	#login{
+		height: 75px;
+		padding-top: 25px;
+		position: relative;
+		top: -340px;
+	}
+	#login a{
+		font-size: 19px;
+	}
+	#login a:hover{
+		font-size: 36px;
+	}
+	#login:hover{
+		width: 70%;
+		height: 135px;
+		left: 5%;
+	}
+}
+@media (max-width: 498px){
+	header{
+		height: 75px;
+	}
+	#hero h1{
+		font-size: 19px;
+		padding: 10px 40px 0px 10px;
+	}
+	#what{
+		height: 120px;
+		width: 36%;
+		padding-top: 40px;
+		position: relative;
+		top: -35px;
+	}
+	#what a{
+		font-size: 19px;
+	}
+	#why{
+		height: 120;
+		padding-top: 40px;
+		position: relative;
+		top: -50px;
+		left: 55%;
+	}
+	#why a{
+		font-size: 20px;
+	}
+	#how{
+		height: 85px;
+		padding-top: 25px;
+		position: relative;
+		top: -75px;
+		left: 38%;
+	}
+	#how:hover{
+		top: -140px;
+		z-index: 2000;
+	}
+	#how a{
+		font-size: 15px;
+	}
+	#login a{
+		font-size: 14px;
+	}
+	#mid-content{
+		font-size: 11px;
+		width: 98%;
+		position: relative;
+		top: -100;
+		margin-bottom: 200px;
+	}
+	#login{
+		height: 65px;
+		padding-top: 20px;
+		position: relative;
+		top: -250px;
+	}
+	footer{
+		position: relative;
+		bottom: -20;
+		height: 50px;
+	}
+}
+@media (max-width: 401px){
 
 }
 /**************************/
